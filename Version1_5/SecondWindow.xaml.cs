@@ -3,19 +3,14 @@ using Microsoft.UI.Xaml;
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace Version1_3;
+namespace Version1_5;
 /// <summary>
 /// An empty window that can be used on its own or navigated to within a Frame.
 /// </summary>
-public sealed partial class MainWindow : Window
+public sealed partial class SecondWindow : Window
 {
-    public MainWindow()
+    public SecondWindow()
     {
         this.InitializeComponent();
-    }
-
-    private void myButton_Click(object sender, RoutedEventArgs e)
-    {
-        myButton.Content = "Clicked";
     }
 }
